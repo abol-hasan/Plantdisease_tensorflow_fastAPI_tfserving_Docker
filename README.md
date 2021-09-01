@@ -9,3 +9,5 @@ in tensorflow and show how they work.
 At the first part, only potato diseases are used which consist of only three classes and then
 tomato, pepper and potato are used all of them together. The Model is built once using Sequential and
 once by Functional API.
+
+The data are uploaded on GoogleDrive and then mounted on Google Colaboratory
