@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body class="recog">
+ <div class="reco">
+      <h1>Recognize the Disease of Potato, Tomato, Pepper</h1>
+ </div>
+ <div class="all">
+      <p>Click on the "Choose File" button to upload a file:</p>
+      <form action="/predict" enctype="multipart/form-data" method="post">
+        <input type="file" id="myFile" name="file" />
+        <input type="submit" />
+      </form>
+    </div>
+    <h2>PREDICTED LABEL: {{ predicted_label }}</h2>
+    <h3>CONFIDENCE: {{confidence}}</h3>
+
+</body>
+</html>
