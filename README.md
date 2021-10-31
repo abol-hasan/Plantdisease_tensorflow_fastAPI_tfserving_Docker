@@ -16,7 +16,7 @@ In tensorflow_fastapi folder you can find file of fastapi and html and css files
 and the model saved of potato_disease.ipynb in which by run it and giving one photo
 , you receive predicted label and confidence of it.
 
-In tfserving_fatAPI_Docker, you can find docker compose file. By runing docker-compose up
+In tfserving_fatAPI_Docker folder, you can find docker compose file. By runing docker-compose up
 and docker push abzaman/tfsfastapi:tagname, you have the program ready to use and
 by uploading one photo, you receive label and confidence of it.
 you can pull image docker under this url:
