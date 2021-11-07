@@ -1,5 +1,5 @@
 # Plantdisease_tensorflow_fastAPI_tfserving_Docker
-This is a project based on diseased plant leaf images. The data is given from
+This is a project based on diseased plant leaf images. The data is taken from
 this link: https://www.kaggle.com/emmarex/plantdisease
 
 In this project different library are used like tensorflow, scikit-learn, numpy,
