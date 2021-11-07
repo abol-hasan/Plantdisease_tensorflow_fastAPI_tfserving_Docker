@@ -1,5 +1,5 @@
 # Plantdisease_tensorflow_fastAPI_tfserving_Docker
-This is a project based on diseased plant leaf images. The data is taken from
+This is a project based on diseased plant leaf images. The data is given from
 this link: https://www.kaggle.com/emmarex/plantdisease
 
 In this project different library are used like tensorflow, scikit-learn, numpy,
@@ -21,5 +21,4 @@ and docker push abzaman/tfsfastapi:tagname, you have the program ready to use an
 by uploading one photo, you receive label and confidence of it.
 you can pull image docker under this url:
 https://hub.docker.com/repository/docker/abzaman/tfsfastapi
-
 
