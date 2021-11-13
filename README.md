@@ -18,7 +18,7 @@ and the model saved of potato_disease.ipynb in which by run it and giving one ph
 
 In tfserving_fatAPI_Docker folder, you can find docker compose file. By runing docker-compose up
 and docker push abzaman/tfsfastapi:tagname, you have the program ready to use and
-by uploading one photo, you receive label and confidence of it.
+by uploading one photo, you receive label and confidence of it. In oder to build image by Dockerfile, put tf-serving-fastapi.py in folder which is named fastapi_TF.
 you can pull image docker under this url:
 https://hub.docker.com/repository/docker/abzaman/tfsfastapi
 
